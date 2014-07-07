@@ -155,6 +155,13 @@
 		2A7191E319680BD2003F0A49 /* XMPPMessage+XEP_0333.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A71918619680BD2003F0A49 /* XMPPMessage+XEP_0333.m */; };
 		2A7191E419680BD2003F0A49 /* NSXMLElement+XEP_0335.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A71918919680BD2003F0A49 /* NSXMLElement+XEP_0335.m */; };
 		2A7191E7196814E2003F0A49 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7191E6196814E2003F0A49 /* Storyboard.storyboard */; };
+		2AB4D903196A688800EBC1A2 /* BanterFrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB4D902196A688800EBC1A2 /* BanterFrontViewController.m */; };
+		2ADAB1F5196A72ED004BD90F /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADAB1F3196A72ED004BD90F /* reveal-icon.png */; };
+		2ADAB1F6196A72ED004BD90F /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADAB1F4196A72ED004BD90F /* reveal-icon@2x.png */; };
+		2ADAB1FA196A7B0A004BD90F /* BanterLeftMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAB1F9196A7B0A004BD90F /* BanterLeftMenuTableViewController.m */; };
+		2ADAB202196AD54D004BD90F /* BanterContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAB201196AD54D004BD90F /* BanterContactsTableViewController.m */; };
+		2ADAB206196AEEA2004BD90F /* BanterProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAB205196AEEA2004BD90F /* BanterProfileViewController.m */; };
+		2ADAB20A196AF5BE004BD90F /* BanterChatListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAB209196AF5BE004BD90F /* BanterChatListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -463,6 +470,18 @@
 		2A71918919680BD2003F0A49 /* NSXMLElement+XEP_0335.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSXMLElement+XEP_0335.m"; sourceTree = "<group>"; };
 		2A7191E519680EDA003F0A49 /* XMPPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMPPFramework.h; path = Banter/XMPPFramework.h; sourceTree = "<group>"; };
 		2A7191E6196814E2003F0A49 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		2AB4D901196A688800EBC1A2 /* BanterFrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanterFrontViewController.h; sourceTree = "<group>"; };
+		2AB4D902196A688800EBC1A2 /* BanterFrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanterFrontViewController.m; sourceTree = "<group>"; };
+		2ADAB1F3196A72ED004BD90F /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon.png"; sourceTree = "<group>"; };
+		2ADAB1F4196A72ED004BD90F /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon@2x.png"; sourceTree = "<group>"; };
+		2ADAB1F8196A7B0A004BD90F /* BanterLeftMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanterLeftMenuTableViewController.h; sourceTree = "<group>"; };
+		2ADAB1F9196A7B0A004BD90F /* BanterLeftMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanterLeftMenuTableViewController.m; sourceTree = "<group>"; };
+		2ADAB200196AD54D004BD90F /* BanterContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanterContactsTableViewController.h; sourceTree = "<group>"; };
+		2ADAB201196AD54D004BD90F /* BanterContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanterContactsTableViewController.m; sourceTree = "<group>"; };
+		2ADAB204196AEEA2004BD90F /* BanterProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanterProfileViewController.h; sourceTree = "<group>"; };
+		2ADAB205196AEEA2004BD90F /* BanterProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanterProfileViewController.m; sourceTree = "<group>"; };
+		2ADAB208196AF5BE004BD90F /* BanterChatListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanterChatListTableViewController.h; sourceTree = "<group>"; };
+		2ADAB209196AF5BE004BD90F /* BanterChatListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanterChatListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -530,13 +549,13 @@
 		2A1E39531965700E009BBA44 /* Banter */ = {
 			isa = PBXGroup;
 			children = (
-				2A3C69C2196A6299000F373E /* Side Bar */,
-				2A719007196801E2003F0A49 /* XMPP */,
 				2A1E395C1965700E009BBA44 /* BanterAppDelegate.h */,
 				2A1E395D1965700E009BBA44 /* BanterAppDelegate.m */,
-				2A1E395F1965700E009BBA44 /* Images.xcassets */,
-				2A1E39541965700E009BBA44 /* Supporting Files */,
 				2A7191E6196814E2003F0A49 /* Storyboard.storyboard */,
+				2AB4D900196A683700EBC1A2 /* Main UI */,
+				2A3C69C2196A6299000F373E /* Library */,
+				2A719007196801E2003F0A49 /* XMPP */,
+				2A1E39541965700E009BBA44 /* Supporting Files */,
 			);
 			path = Banter;
 			sourceTree = "<group>";
@@ -544,6 +563,8 @@
 		2A1E39541965700E009BBA44 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2A1E395F1965700E009BBA44 /* Images.xcassets */,
+				2ADAB1F2196A71FB004BD90F /* Images */,
 				2A1E39551965700E009BBA44 /* Banter-Info.plist */,
 				2A1E39561965700E009BBA44 /* InfoPlist.strings */,
 				2A1E39591965700E009BBA44 /* main.m */,
@@ -570,13 +591,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2A3C69C2196A6299000F373E /* Side Bar */ = {
+		2A3C69C2196A6299000F373E /* Library */ = {
 			isa = PBXGroup;
 			children = (
 				2A3C69C3196A62C9000F373E /* SWRevealViewController.h */,
 				2A3C69C4196A62C9000F373E /* SWRevealViewController.m */,
 			);
-			name = "Side Bar";
+			name = Library;
 			sourceTree = "<group>";
 		};
 		2A719007196801E2003F0A49 /* XMPP */ = {
@@ -1370,6 +1391,80 @@
 			path = "XEP-0335";
 			sourceTree = "<group>";
 		};
+		2AB4D900196A683700EBC1A2 /* Main UI */ = {
+			isa = PBXGroup;
+			children = (
+				2ADAB207196AF46D004BD90F /* Right Hand Side */,
+				2ADAB1F7196A7AB7004BD90F /* Left Hand Side  */,
+				2AB4D904196A68A000EBC1A2 /* FrontViewController */,
+			);
+			name = "Main UI";
+			sourceTree = "<group>";
+		};
+		2AB4D904196A68A000EBC1A2 /* FrontViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2AB4D901196A688800EBC1A2 /* BanterFrontViewController.h */,
+				2AB4D902196A688800EBC1A2 /* BanterFrontViewController.m */,
+			);
+			name = FrontViewController;
+			sourceTree = "<group>";
+		};
+		2ADAB1F2196A71FB004BD90F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2ADAB1F3196A72ED004BD90F /* reveal-icon.png */,
+				2ADAB1F4196A72ED004BD90F /* reveal-icon@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		2ADAB1F7196A7AB7004BD90F /* Left Hand Side  */ = {
+			isa = PBXGroup;
+			children = (
+				2ADAB203196AEE3A004BD90F /* Profile View Controller */,
+				2ADAB1FF196AD510004BD90F /* Contacts View Controller */,
+				2ADAB1FE196AD4E4004BD90F /* Left Menu */,
+			);
+			name = "Left Hand Side ";
+			sourceTree = "<group>";
+		};
+		2ADAB1FE196AD4E4004BD90F /* Left Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2ADAB1F8196A7B0A004BD90F /* BanterLeftMenuTableViewController.h */,
+				2ADAB1F9196A7B0A004BD90F /* BanterLeftMenuTableViewController.m */,
+			);
+			name = "Left Menu";
+			sourceTree = "<group>";
+		};
+		2ADAB1FF196AD510004BD90F /* Contacts View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2ADAB200196AD54D004BD90F /* BanterContactsTableViewController.h */,
+				2ADAB201196AD54D004BD90F /* BanterContactsTableViewController.m */,
+			);
+			name = "Contacts View Controller";
+			sourceTree = "<group>";
+		};
+		2ADAB203196AEE3A004BD90F /* Profile View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2ADAB204196AEEA2004BD90F /* BanterProfileViewController.h */,
+				2ADAB205196AEEA2004BD90F /* BanterProfileViewController.m */,
+			);
+			name = "Profile View Controller";
+			sourceTree = "<group>";
+		};
+		2ADAB207196AF46D004BD90F /* Right Hand Side */ = {
+			isa = PBXGroup;
+			children = (
+				2ADAB208196AF5BE004BD90F /* BanterChatListTableViewController.h */,
+				2ADAB209196AF5BE004BD90F /* BanterChatListTableViewController.m */,
+			);
+			name = "Right Hand Side";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1448,8 +1543,10 @@
 			files = (
 				2A1E39581965700E009BBA44 /* InfoPlist.strings in Resources */,
 				2A7191E7196814E2003F0A49 /* Storyboard.storyboard in Resources */,
+				2ADAB1F6196A72ED004BD90F /* reveal-icon@2x.png in Resources */,
 				2A71902419680203003F0A49 /* README.txt in Resources */,
 				2A1E39601965700E009BBA44 /* Images.xcassets in Resources */,
+				2ADAB1F5196A72ED004BD90F /* reveal-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1487,13 +1584,16 @@
 				2A71909719680B8D003F0A49 /* XMPPPresence.m in Sources */,
 				2A7191CF19680BD2003F0A49 /* XMPPMessageArchivingCoreDataStorage.m in Sources */,
 				2A7191E219680BD2003F0A49 /* XMPPMessage+XEP_0308.m in Sources */,
+				2ADAB202196AD54D004BD90F /* BanterContactsTableViewController.m in Sources */,
 				2A71919D19680BD2003F0A49 /* XMPPLastActivity.m in Sources */,
 				2A7191AA19680BD2003F0A49 /* XMPPMessage+XEP0045.m in Sources */,
 				2A71908D19680B8D003F0A49 /* XMPPXOAuth2Google.m in Sources */,
 				2A71902119680203003F0A49 /* DDContextFilterLogFormatter.m in Sources */,
 				2A71919019680BD2003F0A49 /* XMPPResourceCoreDataStorageObject.m in Sources */,
+				2AB4D903196A688800EBC1A2 /* BanterFrontViewController.m in Sources */,
 				2A7191E419680BD2003F0A49 /* NSXMLElement+XEP_0335.m in Sources */,
 				2A71909819680B8D003F0A49 /* XMPPStream.m in Sources */,
+				2ADAB206196AEEA2004BD90F /* BanterProfileViewController.m in Sources */,
 				2A71903A196803F1003F0A49 /* NSString+DDXML.m in Sources */,
 				2A71902219680203003F0A49 /* DDDispatchQueueLogFormatter.m in Sources */,
 				2A7191E319680BD2003F0A49 /* XMPPMessage+XEP_0333.m in Sources */,
@@ -1510,6 +1610,7 @@
 				2A7191DB19680BD2003F0A49 /* NSXMLElement+XEP_0203.m in Sources */,
 				2A7191AE19680BD2003F0A49 /* XMPPvCardAvatarCoreDataStorageObject.m in Sources */,
 				2A7191A319680BD2003F0A49 /* XMPPRoomHybrid.xcdatamodeld in Sources */,
+				2ADAB1FA196A7B0A004BD90F /* BanterLeftMenuTableViewController.m in Sources */,
 				2A71918D19680BD2003F0A49 /* XMPPProcessOne.m in Sources */,
 				2A71903D196803F1003F0A49 /* DDXMLNode.m in Sources */,
 				2A7191A119680BD2003F0A49 /* XMPPRoomMessageCoreDataStorageObject.m in Sources */,
@@ -1585,6 +1686,7 @@
 				2A7191BC19680BD2003F0A49 /* XMPPIQ+XEP_0060.m in Sources */,
 				2A719028196802BB003F0A49 /* GCDAsyncSocket.m in Sources */,
 				2A7191C819680BD2003F0A49 /* XMPPCapabilitiesCoreDataStorage.m in Sources */,
+				2ADAB20A196AF5BE004BD90F /* BanterChatListTableViewController.m in Sources */,
 				2A71919B19680BD2003F0A49 /* XMPPJabberRPCModule.m in Sources */,
 				2A7191AF19680BD2003F0A49 /* XMPPvCardCoreDataStorage.m in Sources */,
 				2A71909C19680B8D003F0A49 /* XMPPIDTracker.m in Sources */,
