@@ -19,6 +19,7 @@
 		2A1E39691965700E009BBA44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1E39511965700E009BBA44 /* UIKit.framework */; };
 		2A1E39711965700E009BBA44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A1E396F1965700E009BBA44 /* InfoPlist.strings */; };
 		2A1E39731965700E009BBA44 /* BanterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E39721965700E009BBA44 /* BanterTests.m */; };
+		2A3C69C5196A62C9000F373E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3C69C4196A62C9000F373E /* SWRevealViewController.m */; };
 		2A71901C19680203003F0A49 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A71900A19680203003F0A49 /* DDAbstractDatabaseLogger.m */; };
 		2A71901D19680203003F0A49 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A71900C19680203003F0A49 /* DDASLLogger.m */; };
 		2A71901E19680203003F0A49 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A71900E19680203003F0A49 /* DDFileLogger.m */; };
@@ -183,6 +184,8 @@
 		2A1E396E1965700E009BBA44 /* BanterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BanterTests-Info.plist"; sourceTree = "<group>"; };
 		2A1E39701965700E009BBA44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A1E39721965700E009BBA44 /* BanterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BanterTests.m; sourceTree = "<group>"; };
+		2A3C69C3196A62C9000F373E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		2A3C69C4196A62C9000F373E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
 		2A71900919680203003F0A49 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		2A71900A19680203003F0A49 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
 		2A71900B19680203003F0A49 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
@@ -527,6 +530,7 @@
 		2A1E39531965700E009BBA44 /* Banter */ = {
 			isa = PBXGroup;
 			children = (
+				2A3C69C2196A6299000F373E /* Side Bar */,
 				2A719007196801E2003F0A49 /* XMPP */,
 				2A1E395C1965700E009BBA44 /* BanterAppDelegate.h */,
 				2A1E395D1965700E009BBA44 /* BanterAppDelegate.m */,
@@ -564,6 +568,15 @@
 				2A1E396F1965700E009BBA44 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A3C69C2196A6299000F373E /* Side Bar */ = {
+			isa = PBXGroup;
+			children = (
+				2A3C69C3196A62C9000F373E /* SWRevealViewController.h */,
+				2A3C69C4196A62C9000F373E /* SWRevealViewController.m */,
+			);
+			name = "Side Bar";
 			sourceTree = "<group>";
 		};
 		2A719007196801E2003F0A49 /* XMPP */ = {
@@ -1562,6 +1575,7 @@
 				2A7191A719680BD2003F0A49 /* XMPPRoomMemoryStorage.m in Sources */,
 				2A7191B919680BD2003F0A49 /* XMPPvCardTempTel.m in Sources */,
 				2A7191AB19680BD2003F0A49 /* XMPPMUC.m in Sources */,
+				2A3C69C5196A62C9000F373E /* SWRevealViewController.m in Sources */,
 				2A71919A19680BD2003F0A49 /* XMPPIQ+JabberRPCResonse.m in Sources */,
 				2A7191DA19680BD2003F0A49 /* XMPPTime.m in Sources */,
 				2A7191C019680BD2003F0A49 /* XMPPMessage+XEP_0066.m in Sources */,
