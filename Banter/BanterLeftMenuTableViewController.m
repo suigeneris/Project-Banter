@@ -37,6 +37,7 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     _menuItems = @[@"Updates", @"Profile", @"Contacts"];
+    
 }
 
 - (void)didReceiveMemoryWarning

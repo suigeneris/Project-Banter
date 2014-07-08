@@ -553,6 +553,7 @@
 				2A1E395D1965700E009BBA44 /* BanterAppDelegate.m */,
 				2A7191E6196814E2003F0A49 /* Storyboard.storyboard */,
 				2AB4D900196A683700EBC1A2 /* Main UI */,
+				2ADAB20B196B7676004BD90F /* Chat UI */,
 				2A3C69C2196A6299000F373E /* Library */,
 				2A719007196801E2003F0A49 /* XMPP */,
 				2A1E39541965700E009BBA44 /* Supporting Files */,
@@ -1463,6 +1464,13 @@
 				2ADAB209196AF5BE004BD90F /* BanterChatListTableViewController.m */,
 			);
 			name = "Right Hand Side";
+			sourceTree = "<group>";
+		};
+		2ADAB20B196B7676004BD90F /* Chat UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Chat UI";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
